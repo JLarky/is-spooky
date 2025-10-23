@@ -1,6 +1,6 @@
 {
   "name": "is-spooky",
-  "version": "0.0.0-provenance",
+  "version": "0.0.0-oidc",
   "module": "index.ts",
   "type": "module",
   "repository": {
