@@ -1,5 +1,6 @@
 {
   "name": "is-spooky",
+  "version": "0.0.0-new-random-version",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
