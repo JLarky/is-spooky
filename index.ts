@@ -1,6 +1,13 @@
-const isOctober = new Date().getMonth() === 9;
-if (isOctober) {
-  console.log("Spooky!");
-} else {
-  console.log("Not spooky.");
+export function isSpooky(date: Date = new Date()): boolean {
+  return date.getMonth() === 9;
 }
+
+export function printSpookyMessage(date: Date = new Date()): void {
+  if (isSpooky(date)) {
+    console.log("Spooky!");
+  } else {
+    console.log("Not spooky.");
+  }
+}
+
+printSpookyMessage();
